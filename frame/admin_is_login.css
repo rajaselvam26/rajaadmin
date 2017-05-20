@@ -1,0 +1,30 @@
+/* admin_is_login */
+#admin_is_login{
+	width:100%;
+	background:#000 !important;
+	position:fixed !important;
+	top:0px !important;
+	left:0px !important;
+	right:0px !important;
+	color:#FFF !important;
+	font-size:12px !important;
+	text-transform:uppercase !important;
+	clear:both !important;
+	z-index:99999999 !important;
+}
+#admin_is_login form{ padding:0px; margin:0px;}
+#devframe_top_bar_icon{ background:#06C; color:#FFF; position:fixed; top:0px; width:80px; font-weight:bold; text-align:center; cursor:pointer; right:0px; z-index:999999 !important;}
+
+#admin_is_login ul{ margin:0px; list-style:none;} #admin_is_login .clr{ clear:both;}
+#admin_is_login ul li{ float:left; padding:3px 10px; margin:2px 1px; }
+#admin_is_login ul li a{ text-decoration:none !important; color:#FFF !important;}
+#admin_is_login ul li:hover{ background:#666; cursor:pointer; border-radius:3px;}
+#admin_is_login ul li.active{ background:#666; border-radius:3px;}
+#admin_is_login ul.top_left_menu{ padding:0px; margin:0px;}
+#admin_is_login ul.top_admin{ padding:0px; float:right; margin:0px 50px 0 0;}
+
+/* Iframe */
+#admin_is_login iframe{ border:none; width:100%; position:absolute; height:100%; overflow-x:hidden; background-position:20px; z-index:99999999 !important;}
+#overlay_admin{ opacity:1; background:#333 !important; height:700px;}
+#admin_is_login .close{ position:absolute; right:30px; top:4px;}
+#admin_is_login .close a{ color:#F00 !important; right:30px; font-size:16px;}

@@ -1,0 +1,10 @@
+<?php
+// PHP dev__ FRAMEWORK FRAME
+include('../config/config.php');
+include('../frame/function.php');
+ob_start();
+echo "Rajaselva";
+include('load/dev__.php');
+if(file_exists('../install.php')){ header("location:../install.php"); }
+#if(!file_exists('../install.php')){ if(is_dir('../un-install')){ rrmdir('../un-install'); } }
+?>

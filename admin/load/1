@@ -1,0 +1,9 @@
+<?php
+// PHP dev__ FRAMEWORK LOAD
+echo "Rajaselva";
+include('user/left_menu.php');
+include('user/page_assign.php');
+include('user/common.php');
+include('user/user.php');
+include('section/section.php');
+?>
